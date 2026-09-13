@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="TtoVoca icon">
+  <defs>
+    <linearGradient id="tv-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f4fe"/><stop offset="1" stop-color="#cfe6fb"/></linearGradient>
+    <linearGradient id="tv-mark" x1="0.1" y1="0.1" x2="0.9" y2="0.95"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#tv-bg)"/>
+  <!-- flash-card / bookmark mark forming a stylized "V" that loops back (또 = again) -->
+  <path d="M300 300
+           L512 720
+           L724 300"
+        fill="none" stroke="url(#tv-mark)" stroke-width="96" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- return arc on top-right: the "again / 또" loop -->
+  <path d="M724 300
+           a150 150 0 1 1 -150 -150"
+        fill="none" stroke="#1f6feb" stroke-width="72" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="574" cy="150" r="46" fill="#1f6feb"/>
+</svg>
